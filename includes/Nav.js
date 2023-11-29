@@ -57,7 +57,7 @@ export default function Nav() {
         <div id="navigation-left">
           <Link href="/" className="select-none">
             <img src="avatar.jpg" data-tippy-content="Hi!" alt="navigation icon, a cartoon koala"
-              className="block rounded-full w-10 h-10 bg-slate-500 hover:scale-110 duration-300 transition" style="background:transparent;" />
+              className="block rounded-full w-10 h-10  hover:scale-110 duration-300 transition" />
           </Link>
         </div>
         <div id="navigation-right">
