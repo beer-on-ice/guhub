@@ -59,8 +59,8 @@ export default function Friends({ data }) {
                 </ol>
 
                 <p className="mt-3">若您想要交换友情链接或在被撤下后想要重新添加友情链接，
-                    请访问 <a href="https://github.com/BigCoke233/guhub/">GitHub 仓库</a>
-                    并修改<a href="https://github.com/BigCoke233/guhub/tree/main/data/friends.json">这个 JSON 文件</a>，提交 Pull Request，之后就能在这个页面看到您的链接。
+                    请访问 <a href="https://github.com/beer-on-ice/guhub/">GitHub 仓库</a>
+                    并修改<a href="https://github.com/beer-on-ice/guhub/tree/main/data/friends.json">这个 JSON 文件</a>，提交 Pull Request，之后就能在这个页面看到您的链接。
                     但在您做这些之前，请现在您的站点添加上本站链接。</p>
 
                 <style jsx>{`

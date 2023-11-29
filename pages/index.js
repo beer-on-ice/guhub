@@ -79,7 +79,7 @@ export default function Index(data) {
           }
         `}</style>
 
-      <Head><title>被选中的男人 / Lip</title></Head>
+      <Head><title>啤酒加冰 / Lip</title></Head>
       <div id="page-container">
 
         <section id="latest-post-box">
@@ -97,7 +97,7 @@ export default function Index(data) {
 
         <section id="related-links">
           <div className="flex flex-wrap md:flex-nowrap -m-3">
-            <Rlink title="咖啡厅" link="https://blog.sob.im" subTitle="考拉咖啡馆 · 博客"
+            <Rlink title="咖啡厅" link="https://blog.sob.im" subTitle="啤酒烧烤屋 · 博客"
               des="一个清净的好去处，有被选中的男人在这里胡言乱语。">
               <GiCoffeeMug />
             </Rlink>
@@ -107,8 +107,8 @@ export default function Index(data) {
               <GiSpermWhale />
             </Rlink>
 
-            <Rlink title="第 712 层" link="http://backrooms-wiki-cn.wikidot.com/author:Lip" subTitle="阈限 · 怪谈"
-              des="后室，但是有考拉。来看看我为 Backrooms 系列编写的文章。">
+            <Rlink title="第 712 层" link="http://backrooms-wiki-cn.wikidot.com/author:mistyhill" subTitle="阈限 · 怪谈"
+              des="后室，但是有被选中的男人。来看看我为 Backrooms 系列编写的文章。">
               <GiDodging />
             </Rlink>
           </div>
@@ -116,32 +116,32 @@ export default function Index(data) {
 
         <section id="random-words" className="border-t-2 border-b-2 border-gray-700 py-5 md:px-2 text-center">
           <h2 className="text-3xl text-gray-700 font-bold tracking-widest">
-            <span id="fake-words" className="transition">问渠哪得清如许</span>
-            <span id="real-words" className="transition">唯有<span className="bg-gray-700 text-white">开源</span>活水来</span>
+            <span id="fake-words" className="transition">月落乌啼霜满天</span>
+            <span id="real-words" className="transition">江枫渔火对<span className="bg-gray-700 text-white">愁</span>眠</span>
           </h2>
         </section>
 
         <section id="projects">
           <div className="flex flex-wrap -m-3">
-            <Plink title="Matcha" des="林檎与日记本，抹茶与部落格"
-              link="https://github.com/BigCoke233/matcha"
-              tippy="双栏文字向 Typecho 主题"><MdEmojiFoodBeverage /></Plink>
-            <Plink title="BracketDown" des="括号和文字共舞"
-              link="https://github.com/BigCoke233/typecho-plugin-BracketDown"
-              tippy="Typecho MD 语法拓展插件"><BsBraces /></Plink>
-            <Plink title="Miracles" des="生命与奇迹，记录心的律动"
-              link="https://github.com/BigCoke233/miracles"
-              tippy="400+ stars 的精品 Typecho 主题"><GiOpenChest /></Plink>
+            <Plink title="SubShare" des="林檎与日记本，抹茶与部落格"
+              link="https://github.com/linux-jin/ShareYourV2raySubscription"
+              tippy="订阅节点统一管理工具"><MdEmojiFoodBeverage /></Plink>
+            <Plink title="WinNav" des="括号和文字共舞"
+              link="https://github.com/beer-on-ice/site"
+              tippy="仿Windows操作逻辑的导航页"><BsBraces /></Plink>
+            <Plink title="Beer" des="生命与奇迹，记录心的律动"
+              link="https://github.com/beer-on-ice/beer-on-ice"
+              tippy="个人Github介绍页"><GiOpenChest /></Plink>
             <Plink title="Mirecho" des="章鱼猫和无效文字"
-              link="https://github.com/BigCoke233/mirecho"
-              tippy="完全基于 GitHub 的纯静态博客系统"><GiNotebook /></Plink>
+              link="https://github.com/beer-on-ice/SPlayer"
+              tippy="具有解锁功能的网易云播放器"><GiNotebook /></Plink>
           </div>
         </section>
 
         <section id="random-speech" className="border-2 border-gray-700 px-6 py-5 text-lg font-semibold bg-white">
-          <p><strong>如果你在不正确的地方从互联网切出，你终将坠入「考拉室」，这里只有过剩的自我意识和格格不入的奇怪文字。 逻辑至上的交流理想和焦灼与自我价值之实现的迫切欲望在持续地轰鸣。 倘若你听见有什么东西在附近徘徊，不必担心，因为它…… 是被选中的男人。</strong></p>
+          <p><strong>如果你在不正确的地方从互联网切出，你终将坠入「啤酒屋」，这里只有过剩的自我意识和格格不入的奇怪文字。 逻辑至上的交流理想和焦灼与自我价值之实现的迫切欲望在持续地轰鸣。 倘若你听见有什么东西在附近徘徊，不必担心，因为它…… 是被选中的男人。</strong></p>
           <div className="border-t-2 border-gray-700 my-3"></div>
-          <p>你好，这里是 Lip，是被选中的男人，<a href="https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC" target="_blank"
+          <p>你好，这里是 Lip，是啤酒加冰，<a href="https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC" target="_blank"
             className="underline underline-offset-4">INFP-T</a>，如你所见，还是个谜语人。</p>
           <p className="md:flex">
             <strong className="flex-shrink-0 md:mr-3">喜欢</strong>
