@@ -20,8 +20,8 @@ function Prjct({ link, name, des, children }) {
     )
 }
 
-export default function Lab(){
-    return(
+export default function Lab() {
+    return (
         <div className="page-content text-lg font-semibold">
             <Head><title>玩具房 / Eltrac</title></Head>
 
@@ -33,8 +33,8 @@ export default function Lab(){
             </blockquote>
 
             <div className="flex flex-wrap -m-4">
-                <Prjct link="https://bi.guhub.cn/" name="怪奇灵感生成器"
-                des="随机生成文字来激发灵感，原理是「无色的绿色想法愤怒地睡觉」。">
+                <Prjct link="https://bi.sob.im/" name="怪奇灵感生成器"
+                    des="随机生成文字来激发灵感，原理是「无色的绿色想法愤怒地睡觉」。">
                     <BsEmojiDizzy />
                 </Prjct>
             </div>

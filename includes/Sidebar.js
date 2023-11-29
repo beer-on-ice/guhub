@@ -1,24 +1,24 @@
-import Link from 'next/link';
-import * as React from 'react';
+import Link from 'next/link'
+import * as React from 'react'
 
 export default function Sidebar() {
 
-    function close(){
-        const main = document.getElementsByTagName('body')[0];
-        const navButton = document.getElementById('menu-icon');
-        main.classList.remove('menu-open');
+    function close() {
+        const main = document.getElementsByTagName('body')[0]
+        const navButton = document.getElementById('menu-icon')
+        main.classList.remove('menu-open')
         navButton.classList.remove('change')
     }
 
     React.useEffect(() => {
-        const navClose = document.getElementById('nav-close');
+        const navClose = document.getElementById('nav-close')
         navClose.addEventListener('click', close)
 
-        const weirdBox = document.getElementById('weird-box');
+        const weirdBox = document.getElementById('weird-box')
         weirdBox.addEventListener('click', close)
 
-        const listItems = document.querySelectorAll('.sidebar-list li a');
-        listItems.forEach(function(e){
+        const listItems = document.querySelectorAll('.sidebar-list li a')
+        listItems.forEach(function(e) {
             e.addEventListener('click', close)
         })
     }, [])
@@ -78,7 +78,7 @@ export default function Sidebar() {
                     </ul>
                     <h3>实体名单</h3>
                     <ul className="sidebar-list">
-                        <li><a href="https://blog.guhub.cn" target="_blank">树袋咖啡</a></li>
+                        <li><a href="https://blog.sob.im" target="_blank">树袋咖啡</a></li>
                         <li><a href="https://twitter.com/Eltrac233" target="_blank">聒噪蓝鸟</a></li>
                         <li><a href="https://space.bilibili.com/384247770" target="_blank">粉色电视</a></li>
                         <li><a href="https://clovet.org" target="_blank">虹色巨鲸</a></li>
