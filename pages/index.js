@@ -132,7 +132,7 @@ export default function Index(data) {
             <Plink title="Beer" des="生命与奇迹，记录心的律动"
               link="https://github.com/beer-on-ice/beer-on-ice"
               tippy="个人Github介绍页"><GiOpenChest /></Plink>
-            <Plink title="Mirecho" des="章鱼猫和无效文字"
+            <Plink title="SPlayer" des="章鱼猫和无效文字"
               link="https://github.com/beer-on-ice/SPlayer"
               tippy="具有解锁功能的网易云播放器"><GiNotebook /></Plink>
           </div>
