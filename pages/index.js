@@ -154,7 +154,7 @@ export default function Index(data) {
           <p>如果你想的话，可以通过
             <a href="mailto:mail@sob.im" target="_blank"
               className="underline underline-offset-8 mx-1">mail@sob.im</a> /&nbsp;
-            <a href="#" className="underline underline-offset-8 mx-1" data-tippy-content="Lip#4794">Discord</a>
+            <a href="https://t.me/franknb" className="underline underline-offset-8 mx-1" data-tippy-content="Lip#4794">Telegram</a>
             跟我聊天。</p>
         </section>
       </div>
