@@ -206,7 +206,7 @@ function Plink({ title, tippy, des, link, children }) {
 export async function getStaticProps() {
   //获取博客文章
   const parser = new Parser()
-  const data = await parser.parseURL("https://blog.sob.im/feed/")
+  const data = await parser.parseURL("https://blog.sob.im/index.php/feed/")
 
   return {
     props: { data: data },
