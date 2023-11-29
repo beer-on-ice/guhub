@@ -81,7 +81,7 @@ export default function Sidebar() {
                         <li><a href="https://blog.sob.im" target="_blank">树袋咖啡</a></li>
                         <li><a href="https://twitter.com/mistyhill53" target="_blank">聒噪蓝鸟</a></li>
                         <li><a href="https://space.bilibili.com/14639347" target="_blank">粉色电视</a></li>
-                        <li><a href="https://clovet.org" target="_blank">虹色巨鲸</a></li>
+                        <li><a href="https://sob.im" target="_blank">虹色巨鲸</a></li>
                     </ul>
                 </section>
                 <button id="nav-close" className="px-2 py-3 text-md text-center block border border-gray-100 text-gray-100 w-full rounded

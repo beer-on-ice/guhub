@@ -102,7 +102,7 @@ export default function Index(data) {
               <GiCoffeeMug />
             </Rlink>
 
-            <Rlink title="虹色巨鲸" link="https://clovet.org" subTitle="Clovet 性少数社区"
+            <Rlink title="虹色巨鲸" link="https://sob.im" subTitle="美化版 · 个人页"
               des="当外面的世界对你太残酷，偶尔可以躲进鲸鱼的柜子里。">
               <GiSpermWhale />
             </Rlink>
