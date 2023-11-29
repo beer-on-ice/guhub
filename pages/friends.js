@@ -4,12 +4,12 @@ import path from "path"
 import Head from 'next/head'
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import * as ReactDOM from 'react-dom';
+import * as ReactDOM from 'react-dom'
 
-export default function Friends({data}){
-    return(
+export default function Friends({ data }) {
+    return (
         <div>
-            <Head><title>友人帐 / Eltrac</title></Head>
+            <Head><title>友人帐 / Lip</title></Head>
 
             <h2 className="text-3xl text-gray-700 font-bold text-center
             border-t-2 border-b-2 border-gray-700 py-5">友人帐</h2>
@@ -25,13 +25,13 @@ export default function Friends({data}){
                                 `}</style>
                                 <a className="text-center border-2 border-gray-700 block py-4 px-1 bg-white
                                 transition duration-300 hover:-translate-y-1 hover:shadow-lg relative overflow-hidden"
-                                 href={item.link} target="_blank">
+                                    href={item.link} target="_blank">
                                     <h3 className="font-semibold">{item.name}</h3>
                                     <div className="link-icon absolute opacity-30 inset-y-0
-                                    transition duration-300" style={{right: '-1.5rem'}}>
+                                    transition duration-300" style={{ right: '-1.5rem' }}>
                                         <img className="h-full rounded-full block" src={item.img} />
                                     </div>
-                                 </a>
+                                </a>
                             </li>
                         )
                     })
@@ -59,9 +59,9 @@ export default function Friends({data}){
                 </ol>
 
                 <p className="mt-3">若您想要交换友情链接或在被撤下后想要重新添加友情链接，
-                请访问 <a href="https://github.com/BigCoke233/guhub/">GitHub 仓库</a>
-                并修改<a href="https://github.com/BigCoke233/guhub/tree/main/data/friends.json">这个 JSON 文件</a>，提交 Pull Request，之后就能在这个页面看到您的链接。
-                但在您做这些之前，请现在您的站点添加上本站链接。</p>
+                    请访问 <a href="https://github.com/BigCoke233/guhub/">GitHub 仓库</a>
+                    并修改<a href="https://github.com/BigCoke233/guhub/tree/main/data/friends.json">这个 JSON 文件</a>，提交 Pull Request，之后就能在这个页面看到您的链接。
+                    但在您做这些之前，请现在您的站点添加上本站链接。</p>
 
                 <style jsx>{`
                 #content p a {
@@ -77,11 +77,11 @@ export default function Friends({data}){
 export async function getStaticProps() {
 
     const data = readFileSync(path.join(process.cwd(), 'data', `friends.json`), 'utf-8')
-  
+
     return {
-      props: {
-        data: JSON.parse(data),
-      },
+        props: {
+            data: JSON.parse(data),
+        },
     }
-  
-  }
+
+}

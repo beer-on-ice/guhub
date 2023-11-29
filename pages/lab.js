@@ -23,7 +23,7 @@ function Prjct({ link, name, des, children }) {
 export default function Lab() {
     return (
         <div className="page-content text-lg font-semibold">
-            <Head><title>玩具房 / Eltrac</title></Head>
+            <Head><title>玩具房 / Lip</title></Head>
 
             <h2 className="text-3xl text-gray-700 font-bold text-center
             border-t-2 border-b-2 border-gray-700 py-5">玩具房</h2>

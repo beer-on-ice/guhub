@@ -79,7 +79,7 @@ export default function Index(data) {
           }
         `}</style>
 
-      <Head><title>一只考拉 / Eltrac</title></Head>
+      <Head><title>被选中的男人 / Lip</title></Head>
       <div id="page-container">
 
         <section id="latest-post-box">
@@ -98,7 +98,7 @@ export default function Index(data) {
         <section id="related-links">
           <div className="flex flex-wrap md:flex-nowrap -m-3">
             <Rlink title="咖啡厅" link="https://blog.sob.im" subTitle="考拉咖啡馆 · 博客"
-              des="一个清净的好去处，有一只考拉在这里胡言乱语。">
+              des="一个清净的好去处，有被选中的男人在这里胡言乱语。">
               <GiCoffeeMug />
             </Rlink>
 
@@ -107,7 +107,7 @@ export default function Index(data) {
               <GiSpermWhale />
             </Rlink>
 
-            <Rlink title="第 712 层" link="http://backrooms-wiki-cn.wikidot.com/author:eltrac" subTitle="阈限 · 怪谈"
+            <Rlink title="第 712 层" link="http://backrooms-wiki-cn.wikidot.com/author:Lip" subTitle="阈限 · 怪谈"
               des="后室，但是有考拉。来看看我为 Backrooms 系列编写的文章。">
               <GiDodging />
             </Rlink>
@@ -139,9 +139,9 @@ export default function Index(data) {
         </section>
 
         <section id="random-speech" className="border-2 border-gray-700 px-6 py-5 text-lg font-semibold bg-white">
-          <p><strong>如果你在不正确的地方从互联网切出，你终将坠入「考拉室」，这里只有过剩的自我意识和格格不入的奇怪文字。 逻辑至上的交流理想和焦灼与自我价值之实现的迫切欲望在持续地轰鸣。 倘若你听见有什么东西在附近徘徊，不必担心，因为它…… 是一只考拉。</strong></p>
+          <p><strong>如果你在不正确的地方从互联网切出，你终将坠入「考拉室」，这里只有过剩的自我意识和格格不入的奇怪文字。 逻辑至上的交流理想和焦灼与自我价值之实现的迫切欲望在持续地轰鸣。 倘若你听见有什么东西在附近徘徊，不必担心，因为它…… 是被选中的男人。</strong></p>
           <div className="border-t-2 border-gray-700 my-3"></div>
-          <p>你好，这里是 Eltrac，是一只考拉，<a href="https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC" target="_blank"
+          <p>你好，这里是 Lip，是被选中的男人，<a href="https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC" target="_blank"
             className="underline underline-offset-4">INFP-T</a>，如你所见，还是个谜语人。</p>
           <p className="md:flex">
             <strong className="flex-shrink-0 md:mr-3">喜欢</strong>
@@ -154,7 +154,7 @@ export default function Index(data) {
           <p>如果你想的话，可以通过
             <a href="mailto:mail@sob.im" target="_blank"
               className="underline underline-offset-8 mx-1">mail@sob.im</a> /&nbsp;
-            <a href="#" className="underline underline-offset-8 mx-1" data-tippy-content="Eltrac#4794">Discord</a>
+            <a href="#" className="underline underline-offset-8 mx-1" data-tippy-content="Lip#4794">Discord</a>
             跟我聊天。</p>
         </section>
       </div>

@@ -79,7 +79,7 @@ export default function Sidebar() {
                     <h3>实体名单</h3>
                     <ul className="sidebar-list">
                         <li><a href="https://blog.sob.im" target="_blank">树袋咖啡</a></li>
-                        <li><a href="https://twitter.com/Eltrac233" target="_blank">聒噪蓝鸟</a></li>
+                        <li><a href="https://twitter.com/Lip233" target="_blank">聒噪蓝鸟</a></li>
                         <li><a href="https://space.bilibili.com/384247770" target="_blank">粉色电视</a></li>
                         <li><a href="https://clovet.org" target="_blank">虹色巨鲸</a></li>
                     </ul>
