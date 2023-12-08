@@ -97,7 +97,7 @@ export default function Index(data) {
 
         <section id="related-links">
           <div className="flex flex-wrap md:flex-nowrap -m-3">
-            <Rlink title="咖啡厅" link="https://blog.sob.im" subTitle="啤酒烧烤屋 · 博客"
+            <Rlink title="啤酒屋" link="https://blog.sob.im" subTitle="啤酒烧烤屋 · 博客"
               des="一个清净的好去处，有被选中的男人在这里胡言乱语。">
               <GiCoffeeMug />
             </Rlink>
