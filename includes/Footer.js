@@ -9,7 +9,7 @@ export default function Footer() {
         <a data-tippy-content="Next.js" href="https://nextjs.org/" title="Next.js" target="_blank" className="hover:text-black transition duration-3000"><TbBrandNextjs /></a>&nbsp;
         <a data-tippy-content="Vercel" href="https://vercel.com/" title="Vercel" target="_blank" className="hover:text-black transition duration-3000"><TbBrandVercel /></a>&nbsp;
         <a data-tippy-content="Tailwind.css" href="https://tailwindcss.com/" title="Tailwind" target="_blank" className="hover:text-black transition duration-3000"><TbBrandTailwind /></a></p>
-      <p><a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> &copy; 2019-{moment().format('YYYY')} Lip</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> &copy; 2019-{moment().format('YYYY')} Lip <a href="https://icp.gov.moe/?keyword=20238181">萌ICP备20238181号</a></p>
     </footer>
   )
 }
