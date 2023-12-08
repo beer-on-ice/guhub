@@ -4,7 +4,7 @@ import { TbBrandNextjs, TbBrandReactNative, TbBrandVercel, TbBrandTailwind } fro
 export default function Footer() {
   return (
     <footer className="text-sm text-gray-400 pb-10 px-8 flex justify-between flex-col-reverse text-center md:text-left md:flex-row-reverse">
-      <p><a target="_blank" href="https://notbyai.fyi" rel="noopener"></a></p>
+      <p><a target="_blank" href="https://notbyai.fyi" rel="noopener"><img id="notbyai" alt="Written by Human, Not by AI" style="height: 30px;padding-left: 10px;" src={"https://notbyai.fyi/img/written-by-human-not-by-ai-white.svg"} /></a></p>
 
       <p>bulit with&nbsp;
         <a data-tippy-content="React" href="https://github.com/facebook/react" title="React" target="_blank" className="hover:text-black transition duration-3000"><TbBrandReactNative /></a>&nbsp;
