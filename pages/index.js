@@ -152,8 +152,8 @@ export default function Index(data) {
             人类、父权制、烟酒、无端愤怒、自以为优越之人、听不进道理之人、梗小鬼、世界上所有的节肢动物……
           </p>
           <p>如果你想的话，可以通过
-            <a href="mailto:mail@sob.im" target="_blank"
-              className="underline underline-offset-8 mx-1">mail@sob.im</a> /&nbsp;
+            <a href="mailto:mistyhills53@gmail.com" target="_blank"
+              className="underline underline-offset-8 mx-1">mistyhills53@gmail.com</a> /&nbsp;
             <a href="https://t.me/franknb" className="underline underline-offset-8 mx-1" data-tippy-content="Lip#4794">Telegram</a>
             跟我聊天。</p>
         </section>
@@ -206,7 +206,7 @@ function Plink({ title, tippy, des, link, children }) {
 export async function getStaticProps() {
   //获取博客文章
   const parser = new Parser()
-  const data = await parser.parseURL("https://blog.sob.im/index.php/feed/")
+  const data = await parser.parseURL("https://talk.666986.xyz/index.php/feed/")
 
   return {
     props: { data: data },
