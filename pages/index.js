@@ -97,12 +97,12 @@ export default function Index(data) {
 
         <section id="related-links">
           <div className="flex flex-wrap md:flex-nowrap -m-3">
-            <Rlink title="啤酒屋" link="https://blog.sob.im" subTitle="啤酒烧烤屋 · 博客"
+            <Rlink title="啤酒屋" link="https://talk.666986.xyz" subTitle="啤酒烧烤屋 · 博客"
               des="一个清净的好去处，有被选中的男人在这里胡言乱语。">
               <GiCoffeeMug />
             </Rlink>
 
-            <Rlink title="虹色巨鲸" link="https://sob.im" subTitle="美化版 · 个人页"
+            <Rlink title="虹色巨鲸" link="https://www.666986.xyz" subTitle="美化版 · 个人页"
               des="当外面的世界对你太残酷，偶尔可以躲进鲸鱼的柜子里。">
               <GiSpermWhale />
             </Rlink>
