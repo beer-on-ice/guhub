@@ -33,7 +33,7 @@ export default function Lab() {
             </blockquote>
 
             <div className="flex flex-wrap -m-4">
-                <Prjct link="https://bi.sob.im/" name="怪奇灵感生成器"
+                <Prjct link="https://bi.666986.xyz/" name="怪奇灵感生成器"
                     des="随机生成文字来激发灵感，原理是「无色的绿色想法愤怒地睡觉」。">
                     <BsEmojiDizzy />
                 </Prjct>
